@@ -1,30 +1,29 @@
-# HTML Hello
+# Instagram Post Simulation
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Una **simulación de interfaz similar a Instagram** desarrollada con HTML5, Bootstrap 5, FontAwesome y JavaScript puro. Este proyecto muestra un perfil de usuario con una imagen aleatoria (generada mediante [Picsum](https://picsum.photos/)), publicaciones en formato de cuadrícula y publicaciones detalladas, además de modales para crear nuevos posts y enviar mensajes.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## Características
 
-## What to do next?
+- **Navbar Interactiva:** Incluye un botón para crear nuevos posts (con modal) y un dropdown de ajustes.
+- **Perfil de Usuario:** Muestra la imagen de perfil, nombre, estadísticas (publicaciones, seguidores y seguidos) y una breve descripción.
+- **Modales Dinámicos:** 
+  - Modal para **crear un nuevo post** con opciones para agregar una imagen o ubicación.
+  - Modal para **enviar mensajes** al usuario.
+- **Publicaciones:** 
+  - Vista en **cuadrícula** de imágenes.
+  - Vista detallada con información adicional (likes, fecha, descripción) para cada post.
+- **Interactividad:** Funcionalidades básicas mediante JavaScript, como mostrar alertas al seguir o enviar mensajes.
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## Tecnologías Utilizadas
 
-```bash
-$ pip3 install flask && python3 server.py
-```
+- **HTML5:** Estructura semántica y contenido.
+- **CSS con Bootstrap 5.3.2:** Diseño responsivo y estilizado.
+- **JavaScript:** Interactividad y manipulación dinámica del DOM.
+- **FontAwesome:** Iconografía.
+- **Picsum:** Generación de imágenes de perfil aleatorias.
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## Cómo Ejecutar el Proyecto
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/instagram-post-simulation.git
